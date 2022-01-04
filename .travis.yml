@@ -1,6 +1,5 @@
 # dummy change to force push
-script:
-  - console.log(" This is a test of logging to console for progress")
+script: console.log(" This is a test of logging to console for progress")
 
 sudo: required
 services:
