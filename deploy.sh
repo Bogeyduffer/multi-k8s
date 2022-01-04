@@ -11,6 +11,6 @@ docker push bogeyduffer/multi-server:$SHA
 docker push bogeyduffer/multi-worker:$SHA
 
 kubectl apply -f k8s
-kubectl set image deployments/server-deploypment server=bogeyduffer/multi-server:$SHA
-kubectl set image deployments/client-deploypment client=bogeyduffer/multi-client:$SHA
-kubectl set image deployments/worker-deploypment worker=bogeyduffer/multi-worker:$SHA
+kubectl set image deployments/server-deployment server=bogeyduffer/multi-server:$SHA
+kubectl set image deployments/client-deployment client=bogeyduffer/multi-client:$SHA
+kubectl set image deployments/worker-deployment worker=bogeyduffer/multi-worker:$SHA
