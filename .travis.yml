@@ -1,7 +1,6 @@
 # dummy change to force push
-script: console.log(" This is a test of logging to console for progress")
-
 sudo: required
+
 services:
   - docker
 env:
@@ -23,7 +22,6 @@ before_install:
 
 script:
   - docker run -e CI=true bogeyduffer/react-test npm test -- --coverage
-  - console.log(" This is a test of logging to console for progress")
 
 
 deploy:
