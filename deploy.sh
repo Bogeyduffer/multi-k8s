@@ -1,7 +1,7 @@
 
 docker build -t bogeyduffer/multi-client:latest -t bogeyduffer/multi-client:$SHA -f ./client/Dockerfile ./client
-docker build -t bogeyduffer/multi-server:latest -t bogeyduffer/multi-server:$SHA-f ./server/Dockerfile ./server
-docker build -t bogeyduffer/multi-worker:latest -t bogeyduffer/multi-worker:$SHA-f ./worker/Dockerfile ./worker
+docker build -t bogeyduffer/multi-server:latest -t bogeyduffer/multi-server:$SHA -f ./server/Dockerfile ./server
+docker build -t bogeyduffer/multi-worker:latest -t bogeyduffer/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push bogeyduffer/multi-client:latest
 docker push bogeyduffer/multi-server:latest
