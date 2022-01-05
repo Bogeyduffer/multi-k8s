@@ -11,9 +11,9 @@ function App() {
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="AppTitle">Golf League Master)</h1>
+          <h1 className="AppTitle">Golf League Master</h1>
           <h3>In Development</h3>
-          <h4>Check back again later</h4>
+          <h4>Please check back again later</h4>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
