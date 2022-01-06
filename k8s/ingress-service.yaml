@@ -48,4 +48,4 @@ spec:
               service:
                 name: server-cluster-ip-service
                 port:
-                  number: 5000                 
+                  number: 5000
