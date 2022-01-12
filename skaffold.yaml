@@ -3,7 +3,12 @@ kind: Config
 deploy:
   kubectl:
     manifests:
-      - ./k8s/*
+      - k8s/client*
+      - k8s/database*
+      - k8s/ingress*
+      - k8s/postgres*
+      - k8s/server*
+      - k8s/worker*
 build:
   local:
     push: false
