@@ -8,3 +8,7 @@ spec:
   resources:
     requests:
       storage: 2Gi
+
+# You can specify StorageClassName
+# But, normally, you can let it default.
+
