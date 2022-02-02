@@ -13,7 +13,7 @@ services:
     restart: always
     build:
       dockerfile: Dockerfile.dev
-      context: ./nginx
+      context: ./client/nginx
     ports:
       - '3050:80'
   api:
