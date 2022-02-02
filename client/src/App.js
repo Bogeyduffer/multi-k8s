@@ -14,7 +14,7 @@ function App() {
           <h1 className="AppTitle">Golf League Master</h1>
           <h3>In Development</h3>
           <h4>Please check back again later</h4>
-          <h4>Update check as of 02/01/2022 9:45 PM</h4>
+          <h4>Update check as of 02/01/2022 11:00 PM</h4>
           <Link to="/">Home</Link>
           <Link to="/otherpage">Other Page</Link>
         </header>
